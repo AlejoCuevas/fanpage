@@ -1,0 +1,78 @@
+body {
+    background-image: url("2d885374-15b6-4401-b2de-3a9ddbe0ed66.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url("../img/descarga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.8);
+    border-bottom: 2px solid white;
+}
+header img {
+    height: 60px;
+    margin-right: 20px;
+}
+header h1 {
+    font-size: 28px;
+}
+
+/* Menú */
+nav {
+    background: rgba(0,0,0,0.9);
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Contenido */
+.recuadro-capitulo {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.7);
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease-in-out;
+}
+.recuadro-capitulo:hover {
+    transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.85);
+    border-top: 2px solid white;
+    margin-top: 20px;
+}
