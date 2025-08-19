@@ -1,3 +1,15 @@
+p {
+    color: white;
+}
+
+.recuadro-capitulo {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.7);
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
 body {
     background-image: url("https://external-preview.redd.it/PaczBrOqMdv2vIvWK4_nRIjdMAnlIHua8RYzjdMT_-A.jpg?auto=webp&s=fdffbd677e8fdd860ecba540a721a76cb674d516");
     background-size: cover;
